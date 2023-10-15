@@ -24,7 +24,7 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 For example:
 
 ```
-git clone git@github.com:this-is-you/first-contributions.git
+git clone git@github.com:this-is-you/Hacktoberfest-2023.git
 ```
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
@@ -34,10 +34,10 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd first-contributions
+cd Hacktoberfest-2023
 ```
 
-Now create a branch using the `git switch` command:
+Now create a branch using the `git switch` command, branch name caan be anything, make sure it's unique:
 
 ```
 git switch -c your-new-branch-name
@@ -51,7 +51,7 @@ git switch -c add-alonzo-church
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Contribute your best programe and add your name to contributors.md, open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
@@ -60,16 +60,14 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add *
 ```
 
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m "your message about the pull request"
 ```
-
-replacing `your-name` with your name.
 
 ## Push changes to GitHub
 
